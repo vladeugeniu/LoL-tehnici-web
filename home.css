@@ -1,0 +1,46 @@
+.news {
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	/*box-shadow: 0px 2px 0px 0px #00091D;*/
+}
+.title{
+	margin-top:2%;
+	float:left;
+	font-family: Garamond;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.667rem;
+    line-height: 1;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 3%
+}
+.text {
+	padding-bottom: 2%;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.description {
+
+	font-weight: bold;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

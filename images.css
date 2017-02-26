@@ -1,0 +1,46 @@
+.image-left {
+	float:left;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+.image-left {
+	float:left;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+.image-right {
+
+	float:right;
+	margin-left: 2%;
+}
+.image-top {
+	float:top;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	
+}
+.player-image{
+	border-radius: 25px;
+
+}
+.image-boarder{
+	border: 3px solid;
+}
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; 
+}
+.player-image:hover
+{
+        -webkit-transform: scale(2.5);
+        opacity: 1;
+        
+
+       
+}
+.player-image {
+	transition:opacity linear 0.5s;
+	opacity: 0.5;
+}	 	

@@ -1,0 +1,49 @@
+.number {
+	font-size: 25px;
+}
+.popularity{
+	color: #0450FF;
+}
+.win{
+	color: #05CC05;
+}
+.ban{
+	color: #DA0A0A;
+}
+.deads{
+	color: #E62400;
+}
+.kills{
+	color: #26D226;
+}
+.assists{
+	color: #FFFF17;
+}
+.title-name{
+	width: 100%;
+	text-align:center;
+	margin-top:5%;
+}
+.title-name h1{
+	font-family: 'Chonburi', cursive;
+	font-size: 6.5em;
+}
+
+#champs {
+	margin-top: 10%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 25px;
+}
+
+#champs th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Chonburi', cursive;
+}
+#champs tr:hover{
+	background-color: #F2EEFF;
+}

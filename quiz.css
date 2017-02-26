@@ -1,0 +1,98 @@
+.question{
+
+	margin-left: 1%;
+	margin-bottom: 1%;
+	min-width: 99%;
+	position: relative;
+}
+
+#result {
+	margin-left: 3%;
+	margin-top: 3%;`
+	display: none;
+}
+
+span.answer{
+	position: absolute;
+	min-width: 100%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:  #293F83;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+    background-color: white; 
+    border: none;
+    color: black; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    /*-webkit-transition-duration: 0.4s;*/
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #293F83;;
+    color: white;
+}
+#in{
+
+  margin-top: 5%;
+  margin-left: 41%;
+}
+.scores{
+
+  font-weight: bold;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 28px;
+}
+
+
+
+
+
+
